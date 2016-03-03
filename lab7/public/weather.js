@@ -62,6 +62,7 @@ window.addEventListener('load', function() {
 		error: function(xhr, status, error) {
 			$('#chuck').text('Sorry, it looks like the Internet Chuck Norris Database is down.');			
 		},
+		timeout: 2000,
 	});
 
 });
