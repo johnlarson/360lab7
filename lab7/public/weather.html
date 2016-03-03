@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
+		<script src='weather.js'></script>
+	</head>
+	<body>
+		<form id='weather-form'>
+			<label>Enter a Utah City</label>
+			<input id='city-input' type='text'>
+			<br>
+			Suggestions:
+			<br>
+			<ul id='suggestions'></ul>
+			<input id='submit-button' type='submit'>
+		</form>
+		<br>
+		City:
+		<br>
+		<textarea id='city-text-area'></textarea>
+		<br>
+		Current Weather:
+		</br>
+		<ul id='current-weather'>
+			<li>Location: <div id='location'></div></li>
+			<li>Weather: <div id='weather'></div></li>
+			<li>Temperature: <div id='temperature'></div></li>
+			<li>Feels like: <div id='feels-like'></div></li>
+		</ul>
+		Random Chuck Norris Joke:
+		<br>
+		<br>
+		<div id='chuck'></div>
+		<br>
+		<br>
+		Type in numbers below, comma seperated, to get the sum of those numbers:
+		<form id='sum-form'>
+			<input id='sum-input' type='text'>
+			<input id='sum-submit' type='submit'>
+		</form>
+		Sum:
+		<br>
+		<div id='sum'></div>
+	</body>
+<html>
